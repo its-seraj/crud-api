@@ -11,4 +11,17 @@ you creatively focus on your project by minimizing the amount of code needed
 for a given task.
 
 ### Homepage
-<img src = "sreenshots/screencapture-1" />
+
+<img src = "https://i.ibb.co/Jd9fYLy/screencapture-1.png" />
+
+### Login
+
+<img src = "https://i.ibb.co/vjRfZCz/screencapture-2.png" />
+
+### Homepage after login
+
+<img src = "https://i.ibb.co/4ZBxcCJ/screencapture-3.png" />
+
+### Cart
+
+<img src = "https://i.ibb.co/S34GLtB/screencapture-4.png" />
