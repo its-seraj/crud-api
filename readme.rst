@@ -12,7 +12,11 @@ for a given task.
 
 ### Homepage
 
+![image info](./screenshots/screencapture-1.png)
+
+
 <img src = "https://i.ibb.co/Jd9fYLy/screencapture-1.png" />
+<img src = "https://i.ibb.co/D8MLh0M/Screenshot-20211211-163341.png" />
 
 ### Login
 
