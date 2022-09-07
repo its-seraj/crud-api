@@ -1,6 +1,4 @@
-###################
-What is CodeIgniter
-###################
+# What is CodeIgniter
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
@@ -11,21 +9,13 @@ you creatively focus on your project by minimizing the amount of code needed
 for a given task.
 
 ### Homepage
-
-![image info](./screenshots/screencapture-1.png)
-
-
-<img src = "https://i.ibb.co/Jd9fYLy/screencapture-1.png" />
-<img src = "https://i.ibb.co/D8MLh0M/Screenshot-20211211-163341.png" />
+<img src = "screenshots/screencapture-1.png" />
 
 ### Login
-
-<img src = "https://i.ibb.co/vjRfZCz/screencapture-2.png" />
+<img src = "screenshots/screencapture-2.png" />
 
 ### Homepage after login
-
-<img src = "https://i.ibb.co/4ZBxcCJ/screencapture-3.png" />
+<img src = "screenshots/screencapture-3.png" />
 
 ### Cart
-
-<img src = "https://i.ibb.co/S34GLtB/screencapture-4.png" />
+<img src = "screenshots/screencapture-4.png" />
