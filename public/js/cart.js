@@ -37,13 +37,13 @@ $(() => {
                 $(".amount").text(0);
                 
                 $.each(data, (key, row) => {
-                    console.log(row);
+                    // console.log(row);
                     $.ajax({
                         url: `https://fakestoreapi.com/products/${row.product_id}`,
                         type: "get",
                         dataType: "JSON",
                         success: (data2) => {
-                            console.log(data2);
+                            // console.log(data2);
                             let tpl = `
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                                 <img src="${data2.image}" alt="" srcset="">
@@ -59,19 +59,18 @@ $(() => {
                             
                             $(".list-group").append(tpl);
                             cart_actions();
-                        }
+                        },
+                        async: false,
                     })
                 })
-                $(".amount").text(localStorage.getItem("total_amount"));
             },
             async: false,
         })
     }
 
     function cart_actions(){
-        $(".decrement-cart").on("click", function(){
+        $(".decrement-cart").off().on("click", function(){
             let cart_id = $(this).data("id");
-            console.log(cart_id);
             $.ajax({
                 url: "rest/cart/update",
                 type: "post",
@@ -81,15 +80,14 @@ $(() => {
                     count: "-1"
                 },
                 success: (data) => {
-                    console.log(data);
+                    // console.log(data);
                     cart_list();
                 }
             })
         })
 
-        $(".increment-cart").on("click", function(){
+        $(".increment-cart").off().on("click", function(){
             let cart_id = $(this).data("id");
-            console.log(cart_id);
             $.ajax({
                 url: "rest/cart/update",
                 type: "post",
@@ -99,7 +97,7 @@ $(() => {
                     count: "+1"
                 },
                 success: (data) => {
-                    console.log(data);
+                    // console.log(data);
                     cart_list();
                 }
             })
